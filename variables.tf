@@ -22,13 +22,13 @@ variable "aws_secret_key" {
 }
 */
 variable "credentialsfile" {
-  default = "/home/mohit/.aws/credentials" #replace your home directory
+  default = "/home/.aws/credentials" #replace your home directory
   description = "where your access and secret_key are stored, you create the file when you run the aws config"
 }
 
 variable "vpc-fullcidr" {
     default = "172.28.0.0/16"
-  description = "the vpc cdir"
+  description = "the vpc cidr"
 }
 variable "Subnet-Public-AzA-CIDR" {
   default = "172.28.0.0/24"
