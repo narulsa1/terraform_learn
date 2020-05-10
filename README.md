@@ -1,2 +1,2 @@
-# terraform_test
-create terraform test
+# terraform_learn
+Learn terraform
