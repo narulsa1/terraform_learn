@@ -1,2 +1,4 @@
 # terraform_learn
-Learn terraform
+# Learn terraform
+Create EC2 instance with VPC
+
